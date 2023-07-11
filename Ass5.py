@@ -1,14 +1,12 @@
 n1=[5,9,10,12,14,15,17,21,23,27,]
-# st=input("enter number")
-# n1.append(st)
 print(n1)
 print("sum:",sum(n1))
 print("max:",max(n1))
 print("min:",min(n1))
 n1.sort()
-print("sort ascending: ",n1)
+print(Ascending: ",n1)
 n1.sort(reverse=True)
-print("sort descending:",n1)
+print("Descending:",n1)
 tuple=list(n1)
 print(tuple)
  
